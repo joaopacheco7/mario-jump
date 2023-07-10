@@ -32,3 +32,5 @@ document.addEventListener('keydown', function(event) {
         jump();
     }
 })
+
+document.addEventListener('touchstart', jump);
